@@ -5,20 +5,6 @@ ft_printf is reproduced C's printf function. Just like real printf, it allows th
 %[flags][width][.precision][length]type 
 Result is a formated string. Each of these parts is explained below. To produce ft_printf() function, only UNIX write, malloc, free, exit, stdarg functions have been used. Rest of the functionality is custom built.
 
-
-Project folder structure
-ft_printf
-├── includes [header file for project]
-├── libft [my library with various functions]
-└── srcs [source files of the project]
-Makefile [compiles the project]
-author [my username]
-Getting Started
-Run make, which results in library called libftprintf.a. In your source file, use ft_printf() function just as you would use printf(). Furthermore, compile your source code with libftprintf.a to use ft_printf() function. So libftprint.a includes the ft_printf() function.
-
-gcc main.c libftprintf.a
-Functionality
-[flags]
 Following flags are supported
 
 '#'(hash) - For o, x, X types, the text 0, 0x, 0X, respectively, is prepended to non-zero numbers.
