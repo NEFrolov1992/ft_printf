@@ -5,6 +5,7 @@ ft_printf is reproduced C's printf function. Just like real printf, it allows th
 %[flags][width][.precision][length]type 
 Result is a formated string. Each of these parts is explained below. To produce ft_printf() function, only UNIX write, malloc, free, exit, stdarg functions have been used. Rest of the functionality is custom built.
 
+
 Project folder structure
 ft_printf
 ├── includes [header file for project]
